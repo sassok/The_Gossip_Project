@@ -1,5 +1,7 @@
 # Sinatra
 new sinatra gem
+You can't edit and comment Gossip, Enjoy !!!
+
 Sinatra is a singer
 This is obvious
 But it's also a Gem ! Who would have thought that we'd be using this sweet-oh-sweet crooner's name to... well develop web apps and "BDDs" as the french call them.
