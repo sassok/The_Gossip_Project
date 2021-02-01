@@ -1,0 +1,19 @@
+
+<html>
+<head>
+    <title>The Gossip Project</title>
+</head>
+<body>
+    <h1>Bienvenue à toi jeune fanfaron</h1>
+    <h2>La liste des potins arrive bientôt</h2>
+    <p> Un petit gossip mon ami : <a href="/gossips/new/">Créer un nouveau Gossip</a></p>
+    <% gossips.each_with_index do |gossip, index| %>
+        <p>
+        <p>Son auteur : <%= gossip.author %><br/></p>
+        <p>Son contenu : <%= gossip.content %></p>
+        </p>
+       <p><a href= <%= "http://localhost:4567/gossips/#{index}/" %>>Viens checker la page de ce Gossip </a></p>
+      <% end %>
+    
+</body>
+</html>
